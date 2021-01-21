@@ -1,0 +1,150 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header_logo > span {
+    font-size: 27px;
+    font-weight: 300;
+    color: #222;
+    padding-left: 14px;
+}
+
+.header_logo_special-case {
+    color: #f16d7f;
+    font-weight: 900;
+}
+
+.header_form {
+    display: flex;
+    margin-left: 38px;
+    border: 1px solid #e6e6e6;
+    align-items: center;
+}
+
+.header_form-search {
+    padding: 10px 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #222;
+    background: #f6f6f6;
+}
+
+.header_form-input {
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #a4a4a4;
+    padding-left: 16px;
+    width: 305px;
+}
+
+[type="search"]{
+    outline: none;
+}
+
+.fa-search {
+    color: #a4a4a4;
+    padding-right: 10px;
+}
+
+.header_controls {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.button-my_account {
+    width: 130px;
+    height: 38px;
+    color: #fff;
+    background: #f16d7f;
+    border: none;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.button-my_account:hover{
+    background: #e8e8e8;
+    color: #000;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 50px;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+nav > a:hover {
+    color: #f16d7f;
+}
+
+nav a:not(:last-of-type) {
+    margin-right: 47px;
+}
+
+.slider-wrapper {
+    background: url(img/section1_img.jpg) center center no-repeat;
+    height: 613px;
+}
+
+.slider {
+    display: flex;
+}
+
+.rectangle {
+    margin-top: 224px;
+    width: 12px;
+    height: 92px;
+    background: #f16d7f;
+}
+
+.text-wrapper {
+    padding-top: 213px;
+    padding-left: 12px;
+}
+
+.slider-h1 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.14;
+}
+
+.slider-h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.slider-h2 > span{
+    color: #f16d7f;
+}
