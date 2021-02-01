@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper container">
+            <a class="header_logo" href="/"> <img src="img/logo.png" alt="logo"> 
+                <span class="header_logo-text">BRAN<span class="header_logo_special-case">D</span> </span>
+            </a>
+            <form class="header_form" action="#">
+                <button class="header_form-search">Browse</button>
+                <input class="header_form-input" type="search" placeholder="Search for item..."> 
+                <span class="fa fa-search"></span>
+            </form>
+            <div class="header_controls">
+                <a class="header_controls-cart" href="#"><img src="img/cart.png" alt=""></a>
+                <button class="button-my_account">My&nbsp;Account</button>
+            </div>
+        </div>
+    </header>
+    <nav class="nav"> 
+        <a class="nav-link" href="index.html">home</a> 
+        <a class="nav-link nav-link-active" href="#">man</a> 
+        <a class="nav-link" href="#">woman</a> 
+        <a class="nav-link" href="#">kids</a> 
+        <a class="nav-link" href="#">accessories</a> 
+        <a class="nav-link" href="#">featured</a> 
+        <a class="nav-link" href="#">hot deals</a> 
+    </nav>
+    <section class="breadcrumb-wrapper">
+        <div class="breadcrumb container">
+            <span class="breadcrumb-title">New Arrivals</span>
+            <span class="breadcrumb-subtitle">
+                <a href="index.html">Home</a>/
+                <a href="#">Men</a>/
+                <a href="#"><span class="breadcrumb-subtitle-special-case">New Arrivals</span></a>
+            </span>
+        </div>
+    </section>
+    <section class="new-arrivals container">
+        <aside class="new-arrivals_sidebar">
+            <button class="new-arrivals_sidebar-button">Category <span class="new-arrivals_sidebar-button-caret-down"></span></button>
+                <div class="new-arrivals_sidebar-menu">
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Accessories</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Bags</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Denim</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Hoodies & Sweatshirts</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Jackets & Coats</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Pants</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Polos</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Shirts</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Shoes</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Shorts</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Sweaters & Knits</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">T-Shirts</a>
+                    <a class="new-arrivals_sidebar-menu-link" href="#">Tanks</a>
+                </div>
+            <button class="new-arrivals_sidebar-button">Brand<span class="new-arrivals_sidebar-button-caret-down"></span></button>
+            <button class="new-arrivals_sidebar-button">Designer<span class="new-arrivals_sidebar-button-caret-down"></span></button>
+        </aside>
+        <div class="new-arrivals_content">
+               <form class="new-arrivals_form" action="#">
+                    <fieldset class="new-arrivals_form-field">
+                        <legend>Trending now</legend>
+                        <p>Bohemian <span>|</span> Floral <span>|</span> Lace</p> 
+                        <p>Floral <span>|</span> Lace <span>|</span> Bohemian</p>
+                    </fieldset>
+                    <fieldset class="new-arrivals_form-field">
+                        <legend>Size</legend>
+                        <label><input class="new-arrivals_form-field-chbx" type="checkbox">XXS</label>
+                        <label><input type="checkbox">XS</label>
+                        <label><input type="checkbox">S</label>
+                        <label><input type="checkbox">M</label>
+                        <label><input type="checkbox">L</label>
+                        <label><input type="checkbox">XL</label>
+                        <label><input type="checkbox">XXL</label>
+                    </fieldset>
+                    <fieldset class="new-arrivals_form-field">
+                        <legend>Price</legend>
+                        <input class="new-arrivals_form-field_price-range" type="range">
+                        <span class="span-block">$52</span><span class="span-block right">$400</span>
+                    </fieldset>
+               </form>
+                 <form class="new-arrivals_sorter">
+                   <span class="new-arrivals_sorter-text">Sort By</span>
+                   <button class="new-arrivals_sorter-btn">Name<span class="new-arrivals_sorter-btn-caret-down"></span></button>
+                   <span class="new-arrivals_sorter-text">Show</span>
+                   <button class="new-arrivals_sorter-btn">09<span class="new-arrivals_sorter-btn-caret-down"></span></button>
+                 </form>
+            <div class="new-arrivals_product">
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-1.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                    </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-2.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-3.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-4.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-5.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-6.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-7.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-8.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                <figure class="fetured-items__item">
+                    <div class="fetured-items__items-add-to-cart-btn_wrapper">
+                        <button class="new-arrivals_product_add-to-cart-btn">Add to&nbsp;Cart</button>
+                        <div class="new-arrivals_product_btn-wrapper">
+                           <button class="new-arrivals_product_retweet-btn fa fa-retweet"></button>
+                           <button class="new-arrivals_product_heart-btn fa fa-heart-o"></button> 
+                        </div>
+                    </div>
+                    <img class="fetured-items__item-img" src="img/product-cart-img-9.jpg" alt="">
+                    <figcaption class="fetured-items__item-text"> 
+                        <span class="fetured-items__item-title fetured-items__item-text-db">Mango People T-shirt</span> <span class="fetured-items__item-price fetured-items__item-text-db">$52.00</span> 
+                    </figcaption>
+                </figure>
+                
+            </div>
+            <div class="pagination"></div>
+           </div>
+            
+    </section>
+    <section class="feature-box">
+        
+    </section>
+   
+    <section class="subscribe-wrapper">
+       <div class="subscribe container">
+            <div class="subscribe-comment-wrapper">
+               <div class="subscribe-comment-text-wrapper">
+                  <p class="subscribe-comment-text-p">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                    <span class="subscribe-comment-text-title">Bin Burhan</span>
+                    <span class="subscribe-comment-text-subtitle">Dhaka, Bd</span>
+                   <div class="rectangle"></div>
+                   <div class="rectangle-pink"></div>
+                   <div class="rectangle"></div>
+               </div>
+
+            </div>
+            <div class="subscribe-form-wrapper">
+                <span class="subscribe-form-title">Subscribe</span>
+                <span class="subscribe-form-subtitle">for our newletter and promotion</span>
+                <form class="subscribe-form">
+                    <input class="subscribe-form-input" type="text" placeholder="Enter Your Email">
+                    <button class="subscribe-form-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-wrapper container">
+           <div class="footer-text-wrapper">
+            <a class="header_logo" href="/"> <img src="img/logo.png" alt="logo"> 
+                <span class="header_logo-text">BRAN<span class="header_logo_special-case">D</span> </span>
+            </a>
+            <p class="footer-text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+            <p class="footer-text">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+           </div>
+           <div class="footer-nav-wrapper">
+               <div class="footer-nav">
+                   <span class="footer-nav-title">Company</span>
+                   <a class="footer-nav-link" href="#">Home</a>
+                   <a class="footer-nav-link" href="#">Shop</a>
+                   <a class="footer-nav-link" href="#">About</a>
+                   <a class="footer-nav-link" href="#">How It Works</a>
+                   <a class="footer-nav-link" href="#">Contact</a>
+               </div>
+               <div class="footer-nav">
+                   <span class="footer-nav-title">Information</span>
+                   <a class="footer-nav-link" href="#">Tearms & Condition</a>
+                   <a class="footer-nav-link" href="#">Privacy Policy</a>
+                   <a class="footer-nav-link" href="#">How to Buy</a>
+                   <a class="footer-nav-link" href="#">How to Sell</a>
+                   <a class="footer-nav-link" href="#">Promotion</a>
+               </div>
+               <div class="footer-nav">
+                   <span class="footer-nav-title">Shop category</span>
+                   <a class="footer-nav-link" href="#">Men</a>
+                   <a class="footer-nav-link" href="#">Women</a>
+                   <a class="footer-nav-link" href="#">Child</a>
+                   <a class="footer-nav-link" href="#">Apparel</a>
+                   <a class="footer-nav-link" href="#">Brows All</a>
+               </div>
+           </div>
+    </footer>
+    <footer class="copyright-wrapper">
+       <div class="copyright container">
+           <p class="copyright-text">© 2017  Brand  All Rights Reserved.</p>
+       <div class="social-icons-wrapper">
+            <a class="social-icon fa fa-facebook" href="#"></a>
+            <a class="social-icon fa fa-twitter" href="#"></a>
+            <a class="social-icon fa fa-linkedin" href="#"></a>
+            <a class="social-icon fa fa-pinterest-p" href="#"></a>
+            <a class="social-icon fa fa-google-plus" href="#"></a>
+       </div>
+       </div>
+    </footer>   
+</body>
+</html>
